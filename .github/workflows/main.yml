@@ -2,6 +2,7 @@
 
 name: Build
 
+
 # Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
@@ -27,7 +28,7 @@ jobs:
 
       - uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.7
+          haxe-version: 3.2.1
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
         run: |
@@ -57,7 +58,7 @@ jobs:
 
       - uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.7
+          haxe-version: 3.2.1
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
         run: |
@@ -86,7 +87,7 @@ jobs:
 
       - uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.7
+          haxe-version: 3.2.1 
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
         run: |
